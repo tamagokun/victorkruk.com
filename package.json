@@ -1,7 +1,14 @@
 {
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "beta",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-images": "^0.5.5",
+    "react-motion-ui-pack": "^0.10.3"
   }
 }
