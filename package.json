@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && now out --static --name victorkruk"
   },
   "dependencies": {
     "next": "beta",
